@@ -2,7 +2,7 @@ body {
     padding: 0;
     /* font-family: 'Alatsi'; */
     font-size: 22px;
-    background: url(background_login_form.png) no-repeat;
+    background: url(../img/background_login_form.png) no-repeat;
     background-size: cover;
 }
 
