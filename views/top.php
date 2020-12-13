@@ -17,6 +17,7 @@
         <?php if (isset($_SESSION["username"])) : ?>
             <a href="index.php?a=products"> Produkty |</a>
             <a href="index.php?a=addcategory"> Dodaj Kategorie |</a>
+            <a href="index.php?a=deletecategory"> Usuń Kategorie |</a>
             <a href="index.php?a=addproduct"> Dodaj Produkt |</a>
             <a href="index.php?a=logout"> Wyloguj (<?php echo $_SESSION["username"] ?>) |</a>
         <?php else : ?>
