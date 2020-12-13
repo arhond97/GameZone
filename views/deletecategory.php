@@ -1,4 +1,9 @@
-<?php include _VIEWS_PATH.'top.php'; ?>
+<?php include _VIEWS_PATH.'top.php';
+//sprawdź czy użytkownik jest zalogowany, jeśli nie przekieruj na stronę logowania
+if(!isset( $_SESSION["username"])){
+    header("Location:index.php");
+}
+?>
 <div class="maincontent">
     <h3><a class="button3" href="index.php">Powrót</a></h3>
     <h2>Usuń kategorię</h2>

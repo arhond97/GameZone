@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bc3416e-2b76-4749-9005-b0498114235c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/actions/deletecategory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/deletecategory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/top.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/top.php" afterDir="false" />
+    <list default="true" id="0bc3416e-2b76-4749-9005-b0498114235c" name="Default Changelist" comment="usuwanie produktów">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/addcategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/actions/addcategory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/addproduct.php" beforeDir="false" afterPath="$PROJECT_DIR$/actions/addproduct.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/deletecategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/actions/deletecategory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/deleteproduct.php" beforeDir="false" afterPath="$PROJECT_DIR$/actions/deleteproduct.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/actions/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/addcategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/addcategory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/addproduct.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/addproduct.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/deletecategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/deletecategory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/deleteproduct.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/deleteproduct.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/products.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/products.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,14 +26,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lIdby4yIFrPDQKmIra3CovWrWt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -41,8 +53,23 @@
       <updated>1607288614212</updated>
       <workItem from="1607288615314" duration="192000" />
       <workItem from="1607876697041" duration="2093000" />
-      <workItem from="1607879076566" duration="1413000" />
+      <workItem from="1607879076566" duration="2230000" />
     </task>
+    <task id="LOCAL-00001" summary="usuwanie kategorii">
+      <created>1607880516770</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607880516770</updated>
+    </task>
+    <task id="LOCAL-00002" summary="usuwanie produktów">
+      <created>1607880874067</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607880874067</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -58,5 +85,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="usuwanie kategorii" />
+    <MESSAGE value="usuwanie produktów" />
+    <option name="LAST_COMMIT_MESSAGE" value="usuwanie produktów" />
   </component>
 </project>

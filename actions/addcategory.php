@@ -1,4 +1,8 @@
 <?php
+//sprawdź czy użytkownik jest zalogowany, jeśli nie przekieruj na stronę logowania
+if(!isset( $_SESSION["username"])){
+  header("Location:index.php");
+}
 include("db.php");
 
 if(isset($_POST['catName']) ) 

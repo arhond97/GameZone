@@ -1,4 +1,9 @@
-<?php include _VIEWS_PATH.'top.php'; ?>
+<?php include _VIEWS_PATH.'top.php';
+//sprawdź czy użytkownik jest zalogowany, jeśli nie przekieruj na stronę logowania
+if(!isset( $_SESSION["username"])){
+    header("Location:index.php");
+}
+?>
 
 <h2>Dodaj kategorie przedmiotu</h2>
 
