@@ -1,5 +1,13 @@
+<!-- zamkniecie contentu strony - zayczna sie w top.php -->
+</p>
+</div>
 </section>
-        <footer>Stopka</footer>
-        <!-- zamkniecie widoku strony -->
-    </body>
+
+<!-- stopka -->
+<footer class="footer">
+    Stopka
+</footer>
+
+<!-- zamkniecie widoku strony -->
+</body>
 </html>

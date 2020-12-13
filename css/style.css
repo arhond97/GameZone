@@ -1,26 +1,93 @@
+/* OGOLNE */
+
 body {
-    padding: 0;
-    /* font-family: 'Alatsi'; */
-    font-size: 22px;
-    /*background: url(../img/background_login_form.png) no-repeat;*/
-    background-size: cover;
+    font-size: 70%;
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 0.1em;
+    background-color: #efefef;
 }
+
+#page {
+    max-width: 1200px;
+    min-width: 720px;
+    margin: 10px auto 10px auto;
+    padding: 10px;
+    border: 4px double #000;
+    background-color: #ffffff;
+}
+
+.logo {
+    width: 500px;
+    margin: 10px auto 20px auto;
+}
+
+.logo h {
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.gamezone {
+    color: #cc3333;
+}
+
+
+/* MENU NAWIGACYJNE */
+
+#page ul {
+    width: 1100px;
+    padding: 15px;
+    margin: 0px auto 0px auto;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+#navigation li {
+    display: inline;
+    margin: 0px 3px;
+}
+
+#navigation a {
+    color: #000000;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 3px 15px 10px 25px;
+}
+
+#navigation a:hover,
+#navigation a.on,
+.btn:hover {
+    color: #cc3333;
+    background-color: #ffffff;
+}
+
+p {
+    text-align: center;
+    width: 1100px;
+    margin: 20px auto 20px auto;
+    font-weight: normal;
+}
+
+
+/* PANEL LOGOWANIA */
 
 .login-box {
     width: 280px;
-    position: absolute;
-    top: 50%;
-    left: 70%;
-    transform: translate(-50%, -50%);
-    color: white;
+    color: black;
 }
 
 .login-box h1 {
     font-family: 'Alfa Slab One';
     float: left;
-    border-bottom: 6px solid white;
-    margin-bottom: 50px;
-    padding: 13px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 3px solid black;
+    margin-bottom: 10px;
+    padding: 5px 0;
 }
 
 .textbox {
@@ -29,7 +96,7 @@ body {
     font-size: 20px;
     padding: 8px 0;
     margin: 8px 0;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
 }
 
 .textbox i {
@@ -47,7 +114,7 @@ body {
     outline: none;
     background: none;
     color: black;
-    font-size: 22px;
+    font-size: 13px;
     width: 80%;
     float: left;
     margin: 0 10px;
@@ -56,10 +123,10 @@ body {
 .btn {
     width: 100%;
     background: none;
-    border: 3px solid white;
-    color: white;
+    border: 3px solid black;
+    color: black;
     padding: 5px;
-    font-size: 25px;
+    font-size: 15px;
     cursor: pointer;
     margin: 20px 0;
 }

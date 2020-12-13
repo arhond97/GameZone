@@ -20,7 +20,7 @@ if(array_key_exists('a', $_GET) && in_array($_GET['a'], $actions)) {
 }
 
 //views - array
-$views = array('start', 'login', 'products', 'addcategory', 'addproduct', 'deletecategory', 'deleteproduct');
+$views = array('start', 'login', 'products', 'addcategory', 'addproduct', 'deletecategory', 'deleteproduct', 'about');
 $view = 'start';
 if(array_key_exists('a', $_GET) && in_array($_GET['a'], $views)) {
     $view = $_GET['a'];
