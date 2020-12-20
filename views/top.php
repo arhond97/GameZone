@@ -35,10 +35,12 @@
                 <a href="index.php?a=deleteproduct"> Usuń Produkt</a>
                 <li><a href="index.php?a=logout"> Wyloguj (<?php echo $_SESSION["username"] ?>)</a></li>
             <?php else : ?>
+                <li><a href="index.php?a=register"> Zarejestruj się</a></li>
                 <li><a href="index.php?a=login"> Zaloguj się</a></li>
             <?php endif; ?>
         </ul>
 
         <p>
-
+        <?php
+        ?>
             <section>

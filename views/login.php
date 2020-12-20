@@ -22,6 +22,8 @@
 
          <input class="btn" type="submit" name="login" value="ZALOGUJ SIE">
      </div>
+    Jeszcze nie masz konta? <a href="index.php?a=register">Zarejstruj się!</a>
+
  </form>
 
  <?php include _VIEWS_PATH . 'footer.php'; ?>
