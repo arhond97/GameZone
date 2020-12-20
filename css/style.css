@@ -8,8 +8,8 @@ body {
 }
 
 #page {
-    max-width: 1200px;
-    min-width: 720px;
+    max-width: 2000px;
+    min-width: 1200px;
     margin: 10px auto 10px auto;
     padding: 10px;
     border: 4px double #000;
@@ -31,6 +31,46 @@ body {
 
 .gamezone {
     color: #cc3333;
+}
+
+h1 {
+    font-family: 'Alfa Slab One';
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 3px solid black;
+    margin-bottom: 10px;
+    padding: 5px 0;
+}
+
+p {
+    text-align: center;
+    width: 1100px;
+    margin: 20px auto 20px auto;
+    font-weight: normal;
+}
+
+.btn {
+    width: 100%;
+    background: none;
+    border: 3px solid black;
+    color: black;
+    padding: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.page-btn {
+    background: none;
+    border: 3px solid grey;
+    color: grey;
+    padding: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 15px 0;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 
@@ -64,13 +104,6 @@ body {
     background-color: #ffffff;
 }
 
-p {
-    text-align: center;
-    width: 1100px;
-    margin: 20px auto 20px auto;
-    font-weight: normal;
-}
-
 
 /* PANEL LOGOWANIA */
 
@@ -79,23 +112,12 @@ p {
     color: black;
 }
 
-.login-box h1 {
-    font-family: 'Alfa Slab One';
-    float: left;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    border-bottom: 3px solid black;
-    margin-bottom: 10px;
-    padding: 5px 0;
-}
-
 .textbox {
     width: 100%;
     overflow: hidden;
     font-size: 20px;
-    padding: 8px 0;
-    margin: 8px 0;
+    padding: 10px 0;
+    margin: 10px 0;
     border-bottom: 1px solid black;
 }
 
@@ -106,7 +128,8 @@ p {
 }
 
 ::placeholder {
-    color: black;
+    color: grey;
+    text-align: center;
 }
 
 .textbox input {
@@ -120,13 +143,37 @@ p {
     margin: 0 10px;
 }
 
-.btn {
-    width: 100%;
-    background: none;
-    border: 3px solid black;
+
+/* ADD CATEGORY & REMOVE CATEGORY & ADD-PRODUCT */
+
+.addcat-box {
+    width: 500px;
     color: black;
-    padding: 5px;
-    font-size: 15px;
-    cursor: pointer;
-    margin: 20px 0;
+}
+
+.removecat-box {
+    width: 500px;
+    color: black;
+}
+
+.removecat-title {
+    font-family: 'Alfa Slab One';
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 10px;
+    padding: 5px 0;
+}
+
+#removecat-page a {
+    color: #000000;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 3px 15px 10px 25px;
+}
+
+.addproduct-box {
+    width: 500px;
+    color: black;
 }
