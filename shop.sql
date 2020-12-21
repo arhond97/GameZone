@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Czas generowania: 20 Gru 2020, 17:18
+-- Czas generowania: 21 Gru 2020, 11:51
 -- Wersja serwera: 10.4.14-MariaDB
 -- Wersja PHP: 7.4.11
 
@@ -83,7 +83,9 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`userId`, `username`, `password`, `name`, `surname`, `permission`) VALUES
 (1, 'admin', '$2y$10$MFNp4h3HgeCRSYN8jkZugOZN12vxIfsmgjp6rcZ.Eqd6MbrttCokK', 'Admin', 'Admin', 'admin'),
-(2, 'user', '$2y$10$9YfAu1vrRxCLG12uY5E6luBVZFZrLd7jgQxxIDbyzYfHlBYxnMSgS', 'Jan', 'Kowalski', 'user');
+(2, 'user', '$2y$10$9YfAu1vrRxCLG12uY5E6luBVZFZrLd7jgQxxIDbyzYfHlBYxnMSgS', 'Jan', 'Kowalski', 'user'),
+(9, 'us', '$2y$10$HEZHNhJEirh9MsmxLg/ZU.Kn6TRSnOmgDLRTn8Nt.QMmpEAPYOX6G', 'us', 'us', 'user'),
+(10, 'user1', '$2y$10$N8PuPtDCBVWBAGwTljikheia/FppJ2ILalqMeKR6ktEBVf.RCMfhC', 'user1', 'user1', 'user');
 
 --
 -- Indeksy dla zrzutów tabel
@@ -128,7 +130,7 @@ ALTER TABLE `items`
 -- AUTO_INCREMENT dla tabeli `users`
 --
 ALTER TABLE `users`
-  MODIFY `userId` int(11) NOT NULL AUTO_INCREMENT COMMENT 'id użytkownika', AUTO_INCREMENT=9;
+  MODIFY `userId` int(11) NOT NULL AUTO_INCREMENT COMMENT 'id użytkownika', AUTO_INCREMENT=11;
 
 --
 -- Ograniczenia dla zrzutów tabel
