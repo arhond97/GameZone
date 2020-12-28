@@ -12,7 +12,7 @@ session_start();
 
 //dostepne skrypty - next add here and in folder
 //actions - array
-$actions = array('login', 'logout', 'addcategory', 'addproduct', 'deletecategory', 'deleteproduct');
+$actions = array('login', 'logout', 'addcategory', 'addproduct', 'deletecategory', 'deleteproduct', 'register');
 $action = 'start';
 //zmienna 'a' w zaleznosci od actions (?a=login)
 if(array_key_exists('a', $_GET) && in_array($_GET['a'], $actions)) {
@@ -20,7 +20,7 @@ if(array_key_exists('a', $_GET) && in_array($_GET['a'], $actions)) {
 }
 
 //views - array
-$views = array('start', 'login', 'products', 'addcategory', 'addproduct', 'deletecategory', 'deleteproduct');
+$views = array('start', 'login', 'products', 'addcategory', 'addproduct', 'deletecategory', 'deleteproduct', 'about', 'register');
 $view = 'start';
 if(array_key_exists('a', $_GET) && in_array($_GET['a'], $views)) {
     $view = $_GET['a'];

@@ -11,20 +11,36 @@
 </head>
 
 <body>
-    <nav>
-        <a href="index.php?a=start">| Strona główna |</a>
+    <style>
+        <?php include 'css/style.css'; ?>
+    </style>
 
-        <?php if (isset($_SESSION["username"])) : ?>
-            <a href="index.php?a=products"> Produkty |</a>
-            <a href="index.php?a=addcategory"> Dodaj Kategorie |</a>
-            <a href="index.php?a=deletecategory"> Usuń Kategorie |</a>
-            <a href="index.php?a=addproduct"> Dodaj Produkt |</a>
-            <a href="index.php?a=deleteproduct"> Usuń Produkt |</a>
-            <a href="index.php?a=logout"> Wyloguj (<?php echo $_SESSION["username"] ?>) |</a>
-        <?php else : ?>
-            <a href="index.php?a=login"> Zaloguj się</a>
-        <?php endif; ?>
+    <div id="page">
 
-    </nav>
+        <div class="logo">
+            <h class="gamezone"> game zone <br></h>
+            <h>sklep internetowy</h>
+        </div>
 
-    <section>
+        <ul id="navigation">
+            <li><a href="index.php?a=start">Strona Główna</a></li>
+            <li><a href="index.php?a=contact">Formularz kontaktowy</a></li>
+            <li><a href="index.php?a=about">O nas</a></li>
+
+            <?php if (isset($_SESSION["username"])) : ?>
+                <li><a href="index.php?a=products">Produkty</a></li>
+                <li><a href="index.php?a=addcategory">Dodaj Kategorie</a></li>
+                <a href="index.php?a=deletecategory"> Usuń Kategorie</a>
+                <a href="index.php?a=addproduct"> Dodaj Produkt</a>
+                <a href="index.php?a=deleteproduct"> Usuń Produkt</a>
+                <li><a href="index.php?a=logout"> Wyloguj (<?php echo $_SESSION["username"] ?>)</a></li>
+            <?php else : ?>
+                <li><a href="index.php?a=register"> Zarejestruj się</a></li>
+                <li><a href="index.php?a=login"> Zaloguj się</a></li>
+            <?php endif; ?>
+        </ul>
+
+        <p>
+        <?php
+        ?>
+            <section>
